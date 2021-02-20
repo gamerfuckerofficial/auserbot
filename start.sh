@@ -72,9 +72,9 @@ wget https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_linux
 wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip && unzip opencv.zip && mv -f opencv-master /usr/bin/ && rm opencv.zip
 
 
-git clone https://github.com/DevsExpo/FridayUserbot /root/fridaybot
-mkdir /root/fridaybot/bin/
+git clone https://github.com/gamerfuckerofficial/Gamerzbot /root/telebot
+mkdir /root/telebot/bin/
 chmod +x /usr/local/bin/*
-cd /root/fridaybot
+cd /root/telebot
 pip3 install -r requirements.txt
-python3 -m fridaybot 
+python3 -m telebot 
